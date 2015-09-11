@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+	<title>.:Formulario:.</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="validar.js"></script>
+	</head>
+	<body>
+		<center>
+		<div class="estilo_caja">
+		<p class="estilo_titulo">Registro de Productos</p>
+		<form action="proces.php" method="post" name="form">
+			<table>
+				<tr>
+					<td><p class="s">Product: </p></td>
+					<td> <select name="select">
+						<option>Elige Product</option>
+						<option>Refrescos</option>
+						<option>Sabritas</option>
+						<option>Galletas</option>
+						<option>Dulces</option>
+						<option>Abarrotes</option>
+						</select>
+				</tr>
+				<tr>
+					<td><p class="s">Description: </p></td>
+					<td><input type="text" name="Descripcion"></td>
+				</tr>
+				<tr>
+					<td><p class="s">Code: </p></td>
+					<td><input type="text" name="Codigo"></td>
+				</tr>
+				<tr>
+					<td><p class="s">Date:</p></td>
+					<td><input type="text" name="Fecha"></td>
+				</tr>
+				<tr>
+				<td><p class="s">Stock:</p></td>
+					<td><input type="text" name="Cantidad"></td>
+				</tr>
+				<tr>
+				<td><p class="s">Content:</p></td>
+					<td><input type="text" name="Contenido"></td>
+				</tr>
+				<tr>
+				<td><p class="s">Price:</p></td>
+					<td><input type="text" name="Precio"></td>
+				</tr>
+				<tr>
+
+					<td></td>
+					<td><input type="button" id="boton" name="btn_enviar" value="Enviar"></td>
+				</tr>
+			</table>		
+		</form>
+		<div>
+		</center>
+	</body>
+</html>
